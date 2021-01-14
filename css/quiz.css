@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+body {
+	/* background-color: black; */
+	background-image: url("../images/3.png");
+	background-repeat: repeat;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color:white;
+}
+
+h3,
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+h4 {
+	font-size: 1.5em;
+	color: #FFD998;
+	text-shadow: 2px 2px 8px black;
+}
+
+#main {
+	width:800px;
+	margin: 150px auto;
+	padding-bottom: 2px;
+	background-color: #2d2f3d;
+	border-radius: 7px;
+	border: 1px solid #181920;
+}
+
+section {
+	margin: 20px auto;
+	width: 760px;
+	border-radius: 7px;
+	background-color: #37394a;
+	padding: 20px;
+}
+
+fieldset {
+	border: none;
+}
+
+#accueil h3,
+#question h3,
+#fin h3 {
+	text-align: center;
+	padding: 10px;
+	background-color: #3f4151;
+	border-radius: 7px;
+	border: 1px solid #2d2f3d;
+}
+
+header h4 {
+	text-align: center;
+	padding-top: 20px;
+	margin: 0;
+}
+
+#question p,
+#accueil p,
+#fin p,
+form {
+	margin: 20px;
+}
+
+form {
+	background-color: #3f4151;
+	border-radius: 7px;
+	border: 1px solid #2d2f3d;
+}
+
+form {
+	padding: 20px;
+}
+
+label {
+	display: block;
+	padding: 4px;
+}
+
+label:hover {
+	background-color: #2d2f3d;
+	border-radius: 7px;
+}
+
+input {
+	margin-right: 10px;
+}
+
+.boutons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#erreur {
+	display: none;
+	padding: 0;
+}
+
+#erreur p {
+	padding: 20px;
+	border: solid 1px #CA1D1D;
+	border-radius: 7px;
+	background-color: #D06363;
+}
+
+#good {
+	display: none;
+	border: 1px solid #00950A;
+	background-color: #7FC484;
+	padding: 0;
+}
+
+#good p {
+	padding: 20px;
+	margin: 0;
+}
+
+#fin p {
+	text-align: center;
+}
+
+span {
+	display: inline-block;
+	margin: 0 auto;
+	width: auto;
+	padding: 10px;
+	background-color: #2d2f3d;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 7px;
+	border: 1px solid #181920;
+}
+
+
+span:hover {
+	background-image: url("../images/3_bg.png");
+	color: #FFD998;
+	text-shadow: 2px 2px 8px black;
+	border: 1px solid #2d2f3d;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+#frm3 {
+	text-align: center;
+}
+
+#frm3 label:hover {
+	background-color: #3f4151;
+}

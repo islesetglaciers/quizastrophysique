@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz TP1</title>
+		<meta charset="utf-8">
+			 
+		<!-- Les styles CSS sont définis dans un (ou des) fichier(s) .css -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/quiz.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+
+	</head>
+	<body>
+ 		  <div id="main">
+			<header>
+				<h4>TP1: Quiz</h4>
+			</header>
+			<!-- Accueil -->
+			<section id="accueil">
+				<h3>Bienvenue!</h3>
+				<p>Choisissez un niveau:</p>
+				<form name="frm1">
+					<fieldset>
+						<label><input type="radio" value="facile" name="niveau">Facile</label>
+						<label><input type="radio" value="expert" name="niveau">Expert</label>
+					</fieldset>
+				</form>
+				<div class="boutons">
+					<span id="btn1">Débuter</span>
+				</div>
+			</section>
+			
+			<!-- Questions -->
+			<section id="question">
+				<h3>Quiz</h3>
+				<p><!-- La question va ici! --></p>
+				<form name="frm2">
+					<fieldset>
+						<!-- Choix de réponse! -->
+					</fieldset>
+				</form>
+				<div class="boutons">
+					<!-- Valider la réponse -->
+					<span id="valider">Valider</span>
+					<!-- Continuer -->
+					<span id="btn2">Continuer</span>
+					<!-- Abandonner -->
+					<span id="abandon">Abandonner</span>
+				</div>	
+			</section>
+			
+			<!-- Résultats -->
+			<section id="fin">
+				<h3>Résultat</h3>
+				<p>
+					<!-- Indique le nombre de bonnes réponses et le résultat ici -->
+				</p>
+				<!-- Sauvegarde des résultats -->
+				<div id="saveresults">
+					<form name="frm3" id="frm3">
+						<p>Sauvegardez votre résultat</p>
+						<fieldset>
+							<label>
+								Votre nom:
+								<input type="text" name="username">
+							</label>
+							<div class="boutons">
+								<span id="btn4">Sauvegarder</span>
+								<!-- <span id="btn5">Afficher résultats obtenus</span> -->
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="boutons">
+					<span id="btn3">Retour</span>
+				</div>
+			 </section>
+			<!-- Section erreur -->
+		 	<section id="erreur">
+			 	<p>
+					<!-- message d'erreur s'affiche ici -->
+				</p>
+			</section>
+			
+			<!-- Section Bonne Réponse -->
+			<section id="good">
+				<p>
+					Bonne Réponse!
+				</p>
+			</section>
+		</div>
+	</body>		
+	<!-- Références aux fonctions nommées -->
+	<script src="js/fonctions.js"></script>
+    <!-- Les questions -->
+    <script src="js/questions.js"></script>
+</html>
